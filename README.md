@@ -29,7 +29,7 @@ bmake install
 # go to ~/os161/root and run it
 cd ~/os161/root
 sys161 kernel
-os161-prompt> p testbin/test # to be run in os161 prompt
+p testbin/test # to be run in os161 prompt
 ```
 
 Notice the files `kern/include/syscall.h` and `userland/include/unistd.h`.  
