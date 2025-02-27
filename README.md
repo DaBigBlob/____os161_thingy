@@ -8,6 +8,7 @@ cd ____os161_thingy
 # get a fresh containger and mount this directory as ~/os161/src inside container
 docker run --mount type=bind,source="$(pwd)",target=/root/os161/src -ti --platform linux/amd64 eribeirofit/cse4001:latest
 
+cd ~/os161/src
 ./configure
 # building the userland
 # only builds the clibs and testbin/test
