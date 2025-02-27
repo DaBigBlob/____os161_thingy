@@ -20,7 +20,7 @@ bmake install
 
 # building the kernel
 cd kern/conf
-./conf DUMBVM
+./config DUMBVM
 cd ../compile/DUMBVM
 bmake depend -j33 #pretty fast on M* Macs
 bmake -j33
