@@ -32,5 +32,9 @@ sys161 kernel
 os161-prompt> p testbin/test # to be run in os161 prompt
 ```
 
+Notice the files `kern/include/syscall.h` and `userland/include/unistd.h`.  
+In `kern/include/syscall.h` we have `int sys_hello(int *y, int x);` (line 61).  
+In `userland/include/unistd.h` we have `int hello(int x);` (line 154).  
+
 
 
