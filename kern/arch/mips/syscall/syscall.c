@@ -37,7 +37,7 @@
 #include <syscall.h>
 
 int sys_hello(int *y, int x) {
-    kprintf("THIS IS IT: %d %p", x, y);
+    kprintf("\n\nTHIS IS IT: x=%d *y=%p\n\n\n", x, y);
     return 0;
 }
 
